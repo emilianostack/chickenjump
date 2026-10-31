@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="160" viewBox="0 0 100 80">
+  <defs>
+    <radialGradient id="body" cx="38%" cy="28%" r="80%">
+      <stop offset="0" stop-color="#ece8e2"/>
+      <stop offset="0.6" stop-color="#d0c8bd"/>
+      <stop offset="1" stop-color="#a09583"/>
+    </radialGradient>
+    <linearGradient id="comb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8675f"/>
+      <stop offset="1" stop-color="#8a2c3c"/>
+    </linearGradient>
+    <linearGradient id="beak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b663"/>
+      <stop offset="1" stop-color="#b47c34"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#1f2a44" stroke-width="2" stroke-linejoin="round">
+    <path d="M42 60 L37 68 L30 67 M37 68 L39 74" fill="none" stroke="#b47c34" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M58 60 L63 68 L70 67 M63 68 L61 74" fill="none" stroke="#b47c34" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M30 38 L17 24 L24 25 L19 14 L28 19 L30 11 L38 26Z" fill="url(#body)"/>
+    <path d="M58 13 Q52 6 58 4 Q62 0 66 5 Q72 3 72 11Z" fill="url(#comb)"/>
+    <path d="M28 42 Q27 22 46 19 Q49 10 62 10 Q77 11 76 25 Q75 34 69 38 Q72 58 50 62 Q29 62 28 42Z" fill="url(#body)"/>
+    <path d="M75 19 L88 21 L75 25Z" fill="url(#beak)"/>
+    <path d="M75 26 L84 31 L73 31Z" fill="url(#beak)"/>
+    <path d="M36 37 Q50 31 59 41 Q58 52 46 54 Q36 50 36 37Z" fill="url(#body)"/>
+  </g>
+  <path d="M60 15 L70 25 M70 15 L60 25" fill="none" stroke="#1f2a44" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

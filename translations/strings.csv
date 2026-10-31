@@ -1,0 +1,31 @@
+keys,pt_BR,en,es,fr,ru,ko,zh_CN,de,it
+HELP_MOVE,Setas ou A/D: mover,Arrows or A/D: move,Flechas o A/D: mover,Flèches ou A/D : bouger,"Стрелки, A/D: движение",방향키 또는 A/D: 이동,方向键或 A/D:移动,Pfeile oder A/D: bewegen,Frecce o A/D: muovi
+HELP_SHOOT,"Espaço, W ou clique: atirar","Space, W or click: shoot","Espacio, W o clic: disparar","Espace, W ou clic : tirer","Пробел, W, клик: огонь","스페이스, W 또는 클릭: 발사",空格、W 或点击:射击,"Leertaste, W, Klick: schießen","Spazio, W o clic: spara"
+HELP_BOMB,E ou botão direito: bomba,E or right click: bomb,E o clic derecho: bomba,E ou clic droit : bombe,"E, правый клик: бомба",E 또는 오른쪽 클릭: 폭탄,E 或右键:炸弹,E oder Rechtsklick: Bombe,E o clic destro: bomba
+HELP_RELOAD,Pule para recarregar os tiros,Jump to reload your shots,Salta para recargar los disparos,Saute pour recharger tes tirs,Прыгай для перезарядки,점프하면 탄약이 충전됩니다,跳跃可补充弹药,"Springe, um nachzuladen",Salta per ricaricare i colpi
+PROMPT_START,Aperte Espaço para jogar,Press Space to play,Pulsa Espacio para jugar,Appuie sur Espace pour jouer,Нажми пробел для игры,스페이스를 눌러 시작,按空格键开始,Drücke Leertaste zum Spielen,Premi Spazio per giocare
+PROMPT_RESTART,Aperte Espaço,Press Space,Pulsa Espacio,Appuie sur Espace,Нажми пробел,스페이스를 누르세요,按空格键重来,Drücke Leertaste,Premi Spazio
+GAME_OVER,FIM DE JOGO,GAME OVER,FIN DEL JUEGO,PARTIE TERMINÉE,ИГРА ОКОНЧЕНА,게임 오버,游戏结束,SPIEL VORBEI,FINE PARTITA
+NEW_RECORD,Novo recorde!,New record!,¡Nuevo récord!,Nouveau record !,Новый рекорд!,신기록!,新纪录!,Neuer Rekord!,Nuovo record!
+SCORE_LINE,Pontos: %d,Score: %d,Puntos: %d,Points : %d,Очки: %d,점수: %d,得分:%d,Punkte: %d,Punti: %d
+BEST_LINE,Recorde: %d,Best: %d,Récord: %d,Record : %d,Рекорд: %d,최고 기록: %d,最高分:%d,Rekord: %d,Record: %d
+BEST_HUD,Recorde %d,Best %d,Récord %d,Record %d,Рекорд %d,최고 %d,最高 %d,Rekord %d,Record %d
+TOAST_SHIELD,Escudo!,Shield!,¡Escudo!,Bouclier !,Щит!,방패!,护盾!,Schild!,Scudo!
+TOAST_HEART,Vida extra!,Extra life!,¡Vida extra!,Vie bonus !,Доп. жизнь!,추가 생명!,额外生命!,Extraleben!,Vita extra!
+TOAST_BOMB,Bomba! Aperte E,Bomb! Press E,¡Bomba! Pulsa E,Bombe ! Appuie sur E,Бомба! Нажми E,폭탄! E를 누르세요,炸弹!按 E,Bombe! Drücke E,Bomba! Premi E
+TOAST_TRIPLE,Tiro triplo!,Triple shot!,¡Disparo triple!,Tir triple !,Тройной выстрел!,트리플 샷!,三连发!,Dreifachschuss!,Colpo triplo!
+TOAST_REVIVED,Reviveu!,Revived!,¡Reviviste!,Ressuscité !,Ты ожил!,부활!,复活!,Wiederbelebt!,Rianimato!
+TOAST_NO_MONSTERS,Sem monstros na tela,No monsters on screen,No hay monstruos en pantalla,Aucun monstre à l'écran,На экране нет монстров,화면에 몬스터가 없습니다,屏幕上没有怪物,Keine Monster im Bild,Nessun mostro sullo schermo
+TOAST_NO_AMMO,Sem tiros! Pule para recarregar,Out of shots! Jump to reload,¡Sin disparos! Salta para recargar,Plus de tirs ! Saute pour recharger,Нет патронов! Прыгай для перезарядки,탄약 없음! 점프해서 충전하세요,没有弹药!跳跃补充,Keine Schüsse! Springe zum Nachladen,Colpi finiti! Salta per ricaricare
+RANKING,Ranking,Ranking,Clasificación,Classement,Рейтинг,랭킹,排行榜,Rangliste,Classifica
+RANKING_LOADING,Carregando...,Loading...,Cargando...,Chargement...,Загрузка...,불러오는 중...,加载中...,Wird geladen...,Caricamento...
+RANKING_OFFLINE,Ranking indisponível agora,Ranking unavailable right now,Clasificación no disponible ahora,Classement indisponible pour le moment,Рейтинг сейчас недоступен,지금은 랭킹을 볼 수 없습니다,排行榜暂时不可用,Rangliste gerade nicht verfügbar,Classifica non disponibile ora
+RANKING_EMPTY,Ninguém no ranking ainda,No scores yet,Aún no hay puntuaciones,Aucun score pour l'instant,Пока нет результатов,아직 기록이 없습니다,暂无记录,Noch keine Punkte,Ancora nessun punteggio
+RANKING_NAME_HINT,Seu nome,Your name,Tu nombre,Ton nom,Твоё имя,이름,你的名字,Dein Name,Il tuo nome
+RANKING_SAVE,Salvar,Save,Guardar,Enregistrer,Сохранить,저장,保存,Speichern,Salva
+RANKING_CLOSE,Fechar,Close,Cerrar,Fermer,Закрыть,닫기,关闭,Schließen,Chiudi
+RANKING_NEED_NAME,Escolha um nome para entrar,Pick a name to join,Elige un nombre para entrar,Choisis un nom pour participer,Выбери имя для участия,이름을 입력하면 참가합니다,输入名字即可上榜,Wähle einen Namen,Scegli un nome per partecipare
+HELP_TOUCH,Use os botões da tela,Use the on-screen buttons,Usa los botones de la pantalla,Utilise les boutons à l'écran,Используй кнопки на экране,화면 버튼을 사용하세요,使用屏幕按钮,Nutze die Tasten am Bildschirm,Usa i pulsanti sullo schermo
+PROMPT_TOUCH_START,Toque para jogar,Tap to play,Toca para jugar,Touche pour jouer,"Нажми, чтобы играть",터치해서 시작,点击开始,Tippe zum Spielen,Tocca per giocare
+PROMPT_TOUCH_RESTART,Toque para recomeçar,Tap to restart,Toca para reiniciar,Touche pour rejouer,"Нажми, чтобы начать",터치해서 다시 시작,点击重新开始,Tippe für Neustart,Tocca per ricominciare
+TOAST_BOMB_TOUCH,Bomba!,Bomb!,¡Bomba!,Bombe !,Бомба!,폭탄!,炸弹!,Bombe!,Bomba!

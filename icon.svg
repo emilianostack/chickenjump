@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb4ef"/>
+      <stop offset="1" stop-color="#bff0fb"/>
+    </linearGradient>
+    <radialGradient id="body" cx="38%" cy="28%" r="80%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ecd7b4"/>
+    </radialGradient>
+    <linearGradient id="comb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6a5a"/>
+      <stop offset="1" stop-color="#c81e36"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="16" fill="url(#sky)"/>
+  <g stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M30 22 Q27 8 37 11 Q41 4 46 11 Q55 8 52 22Z" fill="url(#comb)"/>
+    <circle cx="40" cy="44" r="27" fill="url(#body)"/>
+    <path d="M60 38 L76 45 L60 51Z" fill="#ffb02e"/>
+    <path d="M56 52 Q63 54 60 63 Q54 65 52 58Z" fill="url(#comb)"/>
+  </g>
+  <ellipse cx="46" cy="37" rx="9" ry="10" fill="#ffffff" stroke="#1f2a44" stroke-width="2.5"/>
+  <circle cx="49" cy="37" r="4.800" fill="#1f2a44"/>
+  <circle cx="51" cy="35" r="1.600" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 44 44">
+  <defs>
+    <radialGradient id="orb" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#d7f4ff"/>
+      <stop offset="1" stop-color="#58b5f0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fd0ff"/>
+      <stop offset="1" stop-color="#1d5fc4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="22" cy="22" r="20" fill="url(#orb)" stroke="#1f2a44" stroke-width="2"/>
+  <path d="M22 8 Q28 12 34 12 Q35 27 22 36 Q9 27 10 12 Q16 12 22 8Z" fill="url(#face)" stroke="#1f2a44" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22 12 V32 Q31 25 30.500 15 Q26 15 22 12Z" fill="#ffffff" opacity="0.28"/>
+  <path d="M9 15 Q12 7 20 5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+</svg>

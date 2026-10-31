@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="68" viewBox="0 0 80 34">
+  <defs>
+    <linearGradient id="dirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b57a45"/>
+      <stop offset="1" stop-color="#6e4427"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6ec55"/>
+      <stop offset="1" stop-color="#4fb33c"/>
+    </linearGradient>
+  </defs>
+  <path d="M9 10 H71 L67 24 Q65 31 57 31 H23 Q15 31 13 24Z" fill="url(#dirt)" stroke="#1f2a44" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="28" cy="23" rx="4" ry="2.4" fill="#8f5e34"/>
+  <ellipse cx="48" cy="25" rx="5" ry="2.6" fill="#8f5e34"/>
+  <ellipse cx="59" cy="20" rx="2.6" ry="1.8" fill="#8f5e34"/>
+  <path d="M4 9 Q4 3 10 3 H70 Q76 3 76 9 Q76 14 71 14 Q68 14 67 12 Q63 18 59 14 Q55 11 51 15 Q46 19 42 14 Q38 11 33 15 Q28 19 24 13 Q20 12 16 15 Q11 17 9 14 Q4 14 4 9Z" fill="url(#grass)" stroke="#1f2a44" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M10 6.5 H52" stroke="#e6ffb0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>
