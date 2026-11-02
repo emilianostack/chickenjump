@@ -1,5 +1,5 @@
 # Gera os pacotes do itch.io em build\: ChickenJump-web.zip e ChickenJump-windows.zip.
-# Rode de novo sempre que mudar o jogo ou a chave da Talo.
+# Rode de novo sempre que mudar o jogo.
 $ErrorActionPreference = 'Stop'
 $project = $PSScriptRoot
 $packages = "$env:LOCALAPPDATA\Microsoft\WinGet\Packages\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe"
@@ -18,9 +18,6 @@ function Pack([string]$Folder, [string]$Zip) {
     Compress-Archive -Path "$project\build\$Folder\*" -DestinationPath "$project\build\$Zip"
     "{0}: {1} MB" -f $Zip, [math]::Round((Get-Item "$project\build\$Zip").Length / 1MB, 1)
 }
-
-$key = (Select-String -Path "$project\addons\talo\settings.cfg" -Pattern '^access_key="(.+)"').Matches
-if ($key.Count -eq 0) { 'Aviso: sem chave da Talo, o jogo sai sem ranking.' }
 
 Export-Preset 'Web' 'build/web/index.html'
 Export-Preset 'Windows' 'build/windows/ChickenJump.exe'

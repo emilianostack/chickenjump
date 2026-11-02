@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/sky.gd" id="2"]
@@ -6,8 +6,6 @@
 [ext_resource type="Script" path="res://scripts/sfx.gd" id="4"]
 [ext_resource type="Texture2D" path="res://assets/background/hills.svg" id="5"]
 [ext_resource type="Script" path="res://scripts/power_bar.gd" id="6"]
-[ext_resource type="Script" path="res://scripts/ranking.gd" id="7"]
-[ext_resource type="Script" path="res://scripts/ranking_panel.gd" id="8"]
 [ext_resource type="Script" path="res://scripts/touch_controls.gd" id="9"]
 
 [sub_resource type="StyleBoxFlat" id="panel_style"]
@@ -79,9 +77,6 @@ position = Vector2(240, 400)
 
 [node name="Sfx" type="Node" parent="."]
 script = ExtResource("4")
-
-[node name="Ranking" type="Node" parent="."]
-script = ExtResource("7")
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
@@ -214,25 +209,3 @@ theme_override_styles/hover = SubResource("arrow_hover_style")
 theme_override_styles/pressed = SubResource("arrow_hover_style")
 text = ">"
 
-[node name="RankingButton" type="Button" parent="HUD"]
-visible = false
-offset_left = 316.0
-offset_top = 62.0
-offset_right = 464.0
-offset_bottom = 114.0
-focus_mode = 0
-theme_override_colors/font_color = Color(0.12, 0.16, 0.27, 1)
-theme_override_colors/font_hover_color = Color(0.12, 0.16, 0.27, 1)
-theme_override_colors/font_pressed_color = Color(0.12, 0.16, 0.27, 1)
-theme_override_font_sizes/font_size = 22
-theme_override_styles/normal = SubResource("arrow_style")
-theme_override_styles/hover = SubResource("arrow_hover_style")
-theme_override_styles/pressed = SubResource("arrow_hover_style")
-
-[node name="RankingPanel" type="Panel" parent="HUD"]
-offset_left = 36.0
-offset_top = 40.0
-offset_right = 444.0
-offset_bottom = 760.0
-theme_override_styles/panel = SubResource("panel_style")
-script = ExtResource("8")

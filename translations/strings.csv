@@ -17,14 +17,6 @@ TOAST_TRIPLE,Tiro triplo!,Triple shot!,¡Disparo triple!,Tir triple !,Тройн
 TOAST_REVIVED,Reviveu!,Revived!,¡Reviviste!,Ressuscité !,Ты ожил!,부활!,复活!,Wiederbelebt!,Rianimato!
 TOAST_NO_MONSTERS,Sem monstros na tela,No monsters on screen,No hay monstruos en pantalla,Aucun monstre à l'écran,На экране нет монстров,화면에 몬스터가 없습니다,屏幕上没有怪物,Keine Monster im Bild,Nessun mostro sullo schermo
 TOAST_NO_AMMO,Sem tiros! Pule para recarregar,Out of shots! Jump to reload,¡Sin disparos! Salta para recargar,Plus de tirs ! Saute pour recharger,Нет патронов! Прыгай для перезарядки,탄약 없음! 점프해서 충전하세요,没有弹药!跳跃补充,Keine Schüsse! Springe zum Nachladen,Colpi finiti! Salta per ricaricare
-RANKING,Ranking,Ranking,Clasificación,Classement,Рейтинг,랭킹,排行榜,Rangliste,Classifica
-RANKING_LOADING,Carregando...,Loading...,Cargando...,Chargement...,Загрузка...,불러오는 중...,加载中...,Wird geladen...,Caricamento...
-RANKING_OFFLINE,Ranking indisponível agora,Ranking unavailable right now,Clasificación no disponible ahora,Classement indisponible pour le moment,Рейтинг сейчас недоступен,지금은 랭킹을 볼 수 없습니다,排行榜暂时不可用,Rangliste gerade nicht verfügbar,Classifica non disponibile ora
-RANKING_EMPTY,Ninguém no ranking ainda,No scores yet,Aún no hay puntuaciones,Aucun score pour l'instant,Пока нет результатов,아직 기록이 없습니다,暂无记录,Noch keine Punkte,Ancora nessun punteggio
-RANKING_NAME_HINT,Seu nome,Your name,Tu nombre,Ton nom,Твоё имя,이름,你的名字,Dein Name,Il tuo nome
-RANKING_SAVE,Salvar,Save,Guardar,Enregistrer,Сохранить,저장,保存,Speichern,Salva
-RANKING_CLOSE,Fechar,Close,Cerrar,Fermer,Закрыть,닫기,关闭,Schließen,Chiudi
-RANKING_NEED_NAME,Escolha um nome para entrar,Pick a name to join,Elige un nombre para entrar,Choisis un nom pour participer,Выбери имя для участия,이름을 입력하면 참가합니다,输入名字即可上榜,Wähle einen Namen,Scegli un nome per partecipare
 HELP_TOUCH,Use os botões da tela,Use the on-screen buttons,Usa los botones de la pantalla,Utilise les boutons à l'écran,Используй кнопки на экране,화면 버튼을 사용하세요,使用屏幕按钮,Nutze die Tasten am Bildschirm,Usa i pulsanti sullo schermo
 PROMPT_TOUCH_START,Toque para jogar,Tap to play,Toca para jugar,Touche pour jouer,"Нажми, чтобы играть",터치해서 시작,点击开始,Tippe zum Spielen,Tocca per giocare
 PROMPT_TOUCH_RESTART,Toque para recomeçar,Tap to restart,Toca para reiniciar,Touche pour rejouer,"Нажми, чтобы начать",터치해서 다시 시작,点击重新开始,Tippe für Neustart,Tocca per ricominciare

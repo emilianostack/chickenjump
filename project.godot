@@ -8,10 +8,6 @@ run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[autoload]
-
-Talo="*res://addons/talo/talo_manager.gd"
-
 [display]
 
 window/size/viewport_width=480
@@ -20,10 +16,6 @@ window/size/window_width_override=432
 window/size/window_height_override=720
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/talo/plugin.cfg")
 
 [gui]
 

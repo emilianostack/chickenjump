@@ -6,7 +6,7 @@ Chicken Jump
 
 ## Short description or tagline
 
-Bounce sky-high, blast monsters and climb the global leaderboard!
+Bounce sky-high, blast monsters and beat your best score!
 
 ## Description
 
@@ -44,14 +44,8 @@ Click the `<>` button in the description editor, delete what is there and paste 
 </table>
 <p>The game runs in your browser on desktop and mobile. There is also a Windows download.</p>
 
-<h2>Global leaderboard</h2>
-<p>Pick a name and see how your best score stacks up against other players.</p>
-
 <h2>Languages</h2>
 <p>English, Português, Español, Français, Deutsch, Italiano, Русский, 한국어, 中文. Change the language on the main menu.</p>
-
-<h2>Privacy</h2>
-<p>To run the leaderboard, the game sends your chosen name, your score and a random ID generated on your device to the <a href="https://trytalo.com">Talo</a> service.</p>
 
 <p><em>Made with Godot Engine. Third-party licenses are included in LICENSES.txt.</em></p>
 ```

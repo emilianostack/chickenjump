@@ -64,9 +64,6 @@ var touch_ui := false
 @onready var language_label: Label = $HUD/Panel/LanguageRow/Language
 @onready var language_previous: Button = $HUD/Panel/LanguageRow/Previous
 @onready var language_next: Button = $HUD/Panel/LanguageRow/Next
-@onready var ranking: Ranking = $Ranking
-@onready var ranking_button: Button = $HUD/RankingButton
-@onready var ranking_panel: RankingPanel = $HUD/RankingPanel
 @onready var touch_controls: TouchControls = $HUD/TouchControls
 
 
@@ -76,17 +73,11 @@ func _ready() -> void:
 	font.allow_system_fallback = false
 	language_previous.pressed.connect(change_language.bind(-1))
 	language_next.pressed.connect(change_language.bind(1))
-	ranking_button.pressed.connect(open_ranking)
-	ranking.changed.connect(_save_game)
 	touch_ui = DisplayServer.is_touchscreen_available()
 	_load_save()
 	_apply_language()
 	_reset_world()
 	_show_menu()
-
-
-func open_ranking() -> void:
-	ranking_panel.open(ranking, best)
 
 
 func change_language(step: int) -> void:
@@ -100,7 +91,6 @@ func change_language(step: int) -> void:
 func _apply_language() -> void:
 	TranslationServer.set_locale(LANGUAGES[language][0])
 	language_label.text = LANGUAGES[language][1]
-	ranking_button.text = tr("RANKING")
 
 
 func _show_menu() -> void:
@@ -126,7 +116,6 @@ func start_game() -> void:
 	_reset_world()
 	state = State.PLAYING
 	panel.hide()
-	ranking_button.hide()
 	touch_controls.show()
 
 
@@ -174,8 +163,6 @@ func use_bomb() -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	if ranking_panel.visible:
-		return
 	# No toque o sistema tambem gera um clique; durante a partida quem atira e o botao de tiro.
 	if state == State.PLAYING and event is InputEventMouseButton:
 		if event.device == InputEvent.DEVICE_ID_EMULATION:
@@ -487,7 +474,6 @@ func _end_game() -> void:
 	language_row.hide()
 	panel.offset_bottom = PANEL_BOTTOM_GAME_OVER
 	touch_controls.hide()
-	ranking.sync(best)
 
 
 func _show_message(heading: String, body: String, call_to_action: String) -> void:
@@ -495,7 +481,6 @@ func _show_message(heading: String, body: String, call_to_action: String) -> voi
 	message.text = body
 	prompt.text = call_to_action
 	panel.show()
-	ranking_button.visible = ranking.is_available()
 	touch_controls.hide()
 
 
@@ -545,20 +530,7 @@ func _load_save() -> void:
 			best = maxi(saved_best, 0)
 		if saved_language is String:
 			locale = saved_language
-		_load_ranking(file)
 	language = _language_index(locale)
-
-
-func _load_ranking(file: ConfigFile) -> void:
-	var saved_id: Variant = file.get_value("ranking", "id", "")
-	var saved_name: Variant = file.get_value("ranking", "name", "")
-	var saved_synced: Variant = file.get_value("ranking", "synced_best", 0)
-	if saved_id is String:
-		ranking.player_id = saved_id
-	if saved_name is String:
-		ranking.player_name = Ranking.clean_name(saved_name)
-	if saved_synced is int:
-		ranking.synced_best = maxi(saved_synced, 0)
 
 
 ## Busca o idioma exato, depois o mesmo idioma de outra regiao; senao, ingles.
@@ -577,7 +549,4 @@ func _save_game() -> void:
 	var file := ConfigFile.new()
 	file.set_value("score", "best", best)
 	file.set_value("settings", "language", LANGUAGES[language][0])
-	file.set_value("ranking", "id", ranking.player_id)
-	file.set_value("ranking", "name", ranking.player_name)
-	file.set_value("ranking", "synced_best", ranking.synced_best)
 	file.save(save_path)

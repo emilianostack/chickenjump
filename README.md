@@ -31,7 +31,7 @@ Every platform, monster and power-up in one test scene:
 - Monsters you can shoot or stomp, with limited ammo that reloads as you jump
 - Springs, jetpack, shield, extra lives, bombs and triple shot
 - Difficulty that rises as you climb
-- Global leaderboard powered by [Talo](https://trytalo.com)
+- Best score saved on your device
 - 9 languages: English, Portuguese, Spanish, French, German, Italian, Russian, Korean and Chinese
 
 ## Controls
@@ -117,16 +117,6 @@ All the art is vector, in SVG, and lives in [assets/](assets/).
 
 On Windows, if Godot was installed with WinGet, `jogar.cmd` starts the game directly.
 
-## Leaderboard setup
-
-The Talo access key is not in this repository, so a fresh clone runs without the leaderboard and hides the Ranking button. To turn it on:
-
-1. Create a game on [Talo](https://trytalo.com) with a leaderboard whose internal name is `chicken-best`.
-2. Create an access key with only these scopes: `read:players`, `write:players`, `read:leaderboards` and `write:leaderboards`.
-3. Put the key in `addons/talo/settings.cfg`, in `access_key=""`. This file is ignored by git, so never commit it.
-
-The key ships inside exported builds, which is why it should have no other scopes.
-
 ## Export
 
 Install the Godot export templates, then run `exportar.ps1` on Windows. It creates `ChickenJump-web.zip` and `ChickenJump-windows.zip` in `build/`. The script looks for a Godot installed with WinGet.
@@ -136,11 +126,11 @@ Install the Godot export templates, then run `exportar.ps1` on Windows. It creat
 The tests are scripts in `tests/`. For example:
 
 ```
-godot --headless --fixed-fps 60 --path . --script res://tests/online.gd
+godot --headless --fixed-fps 60 --path . --script res://tests/bugs.gd
 ```
 
 The usage of each test is at the top of its file.
 
 ## Licenses
 
-Third-party licenses, including those for Godot, the Talo plugin and the fonts, are in [LICENSES.txt](LICENSES.txt).
+Third-party licenses, including those for Godot and the fonts, are in [LICENSES.txt](LICENSES.txt).
